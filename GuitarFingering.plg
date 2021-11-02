@@ -1,0 +1,1683 @@
+
+{
+  Initialize "()
+  {
+    AddToPluginsMenu(_PlugInName,'Run');
+  }"
+  bareIClicked "() {
+    BareText = 'I';
+
+    trimBareClicked();
+    noteUpdate('Bare', true);
+  }"
+  bareIIClicked "() {
+    BareText = 'II';
+
+    trimBareClicked();
+    noteUpdate('Bare', true);
+  }"
+  bareIIIClicked "() {
+    BareText = 'III';
+
+    trimBareClicked();
+    noteUpdate('Bare', true);
+  }"
+  bareIVClicked "() {
+    BareText = 'IV';
+
+    trimBareClicked();
+    noteUpdate('Bare', true);
+  }"
+  bareVClicked "() {
+    BareText = 'V';
+
+    trimBareClicked();
+    noteUpdate('Bare', true);
+  }"
+  bareVIClicked "() {
+    BareText = 'VI';
+
+    trimBareClicked();
+    noteUpdate('Bare', true);
+  }"
+  bareVIIClicked "() {
+    BareText = 'VII';
+
+    noteUpdate('Bare', true);
+  }"
+  bareVIIIClicked "() {
+    BareText = 'VIII';
+
+    trimBareClicked();
+    noteUpdate('Bare', true);
+  }"
+  bareIXClicked "() {
+    BareText = 'IX';
+
+    trimBareClicked();
+    noteUpdate('Bare', true);
+  }"
+  bareXClicked "() {
+    BareText = 'X';
+
+    trimBareClicked();
+    noteUpdate('Bare', true);
+  }"
+  bareXIClicked "() {
+    BareText = 'XI';
+
+    trimBareClicked();
+    noteUpdate('Bare', true);
+  }"
+  bareXIIClicked "() {
+    BareText = 'XII';
+
+    trimBareClicked();
+    noteUpdate('Bare', true);
+  }"
+  trimStringClicked "() {
+    TrimString    = true;
+    TrimLHFinger  = false;
+    TrimRHFinger  = false;
+    TrimBare      = false;
+    TrimWhich     = 'String';
+  }"
+  trimLHFingerClicked "() {
+    TrimString    = false;
+    TrimLHFinger  = true;
+    TrimRHFinger  = false;
+    TrimBare      = false;
+    TrimWhich     = 'LH finger';
+  }"
+  trimRHFingerClicked "() {
+    TrimString    = false;
+    TrimLHFinger  = false;
+    TrimRHFinger  = true;
+    TrimBare      = false;
+    TrimWhich     = 'RH finger';
+  }"
+  trimBareClicked "() {
+    TrimString    = false;
+    TrimLHFinger  = false;
+    TrimRHFinger  = false;
+    TrimBare      = true;
+    TrimWhich     = 'Bare';
+  }"
+  bareSize1Cicked "() {
+    BareSize     = '1/3 ';
+    BareSize1Set = true;
+    BareSize2Set = false;
+    BareSize3Set = false;
+    BareSize4Set = false;
+    BareSize5Set = false;
+
+    Sibelius.RefreshDialog();
+  }"
+  bareSize2Cicked "() {
+    BareSize     = '1/2 ';
+    BareSize1Set = false;
+    BareSize2Set = true;
+    BareSize3Set = false;
+    BareSize4Set = false;
+    BareSize5Set = false;
+
+    Sibelius.RefreshDialog();
+  }"
+  bareSize3Cicked "() {
+    BareSize     = '2/3 ';
+    BareSize1Set = false;
+    BareSize2Set = false;
+    BareSize3Set = true;
+    BareSize4Set = false;
+    BareSize5Set = false;
+
+    Sibelius.RefreshDialog();
+  }"
+  bareSize4Cicked "() {
+    BareSize     = '5/6 ';
+    BareSize1Set = false;
+    BareSize2Set = false;
+    BareSize3Set = false;
+    BareSize4Set = true;
+    BareSize5Set = false;
+
+    Sibelius.RefreshDialog();
+  }"
+  bareSize5Cicked "() {
+    BareSize     = '';
+    BareSize1Set = false;
+    BareSize2Set = false;
+    BareSize3Set = false;
+    BareSize4Set = false;
+    BareSize5Set = true;
+
+    Sibelius.RefreshDialog();
+  }"
+  rhFingerPClicked "() {
+    RH_FingerLetter = 'p';
+
+    trimRHFingerClicked();
+    noteUpdate('RH finger', true);
+  }"
+  rhFingerIClicked "() {
+    RH_FingerLetter = 'i';
+
+    trimRHFingerClicked();
+    noteUpdate('RH finger', true);
+  }"
+  rhFingerMClicked "() {
+    RH_FingerLetter = 'm';
+
+    trimRHFingerClicked();
+    noteUpdate('RH finger', true);
+  }"
+  rhFingerAClicked "() {
+    RH_FingerLetter = 'a';
+
+    trimRHFingerClicked();
+    noteUpdate('RH finger', true);
+  }"
+  lhFinger0Clicked "() {
+    LH_FingerNumber = 0;
+
+    trimLHFingerClicked();
+    noteUpdate('LH finger', true);
+  }"
+  lhFinger1Clicked "() {
+    LH_FingerNumber = 1;
+
+    trimLHFingerClicked();
+    noteUpdate('LH finger', true);
+  }"
+  lhFinger2Clicked "() {
+    LH_FingerNumber = 2;
+
+    trimLHFingerClicked();
+    noteUpdate('LH finger', true);
+  }"
+  lhFinger3Clicked "() {
+    LH_FingerNumber = 3;
+
+    trimLHFingerClicked();
+    noteUpdate('LH finger', true);
+  }"
+  lhFinger4Clicked "() {
+    LH_FingerNumber = 4;
+
+    trimLHFingerClicked();
+    noteUpdate('LH finger', true);
+  }"
+  string1Clicked "() {
+    StringNumber = 1;
+
+    trimStringClicked();
+    noteUpdate('String', true);
+  }"
+  string2Clicked "() {
+    StringNumber = 2;
+
+    trimStringClicked();
+    noteUpdate('String', true);
+  }"
+  string3Clicked "() {
+    StringNumber = 3;
+
+    trimStringClicked();
+    noteUpdate('String', true);
+  }"
+  string4Clicked "() {
+    StringNumber = 4;
+
+    trimStringClicked();
+    noteUpdate('String', true);
+  }"
+  string5Clicked "() {
+    StringNumber = 5;
+
+    trimStringClicked();
+    noteUpdate('String', true);
+  }"
+  string6Clicked "() {
+    StringNumber = 6;
+
+    trimStringClicked();
+    noteUpdate('String', true);
+  }"
+  trimUpBClicked " () {
+    TrimDirection = 'U';
+
+    trimUpdate(TrimWhich, 'U', true);
+  }"
+  trimUpClicked " () {
+    TrimDirection = 'U';
+
+    trimUpdate(TrimWhich, 'U', false);
+  }"
+  trimDownBClicked " () {
+    TrimDirection = 'D';
+
+    trimUpdate(TrimWhich, 'D', true);
+  }"
+  trimDownClicked " () {
+    TrimDirection = 'D';
+
+    trimUpdate(TrimWhich, 'D', false);
+  }"
+  trimLeftBClicked " () {
+    TrimDirection = 'L';
+
+    trimUpdate(TrimWhich, 'L', true);
+  }"
+  trimLeftClicked " () {
+    TrimDirection = 'L';
+
+    trimUpdate(TrimWhich, 'L', false);
+  }"
+  trimRightBClicked " () {
+    TrimDirection = 'R';
+
+    trimUpdate(TrimWhich, 'R', true);
+  }"
+  trimRightClicked " () {
+    TrimDirection = 'R';
+
+    trimUpdate(TrimWhich, 'R', false);
+  }"
+  nextClicked "() {
+    nextNote(true);
+    noteUpdate(0, false);
+  }"
+  clearClicked "() {
+    Bar      = barObject();
+    NoteObj  = noteObject(Bar);
+    Position = NoteObj.Position;
+    Parent   = NoteObj.ParentNoteRest;
+
+    if (not (NoteObj=null))
+    {
+      for each SymbolItem obj in Bar
+      {
+        if ((obj.Position = Position) and (obj.Index >= 192) and (obj.Index <= 201))
+        {
+          obj.Delete();
+        }
+      }
+
+      for each Text obj in Bar
+      {
+        if (obj.Position = Position)
+        {
+          if ((obj.Text = '0') or
+              (obj.Text = '1') or
+              (obj.Text = '2') or
+              (obj.Text = '3') or
+              (obj.Text = '4'))
+          {
+            obj.Delete();
+          }
+
+          if ((obj.Text = 'p') or
+              (obj.Text = 'i') or
+              (obj.Text = 'm') or
+              (obj.Text = 'a'))
+          {
+            obj.Delete();
+          }
+
+          if ((utils.Pos('I', obj.Text) >= 0) or
+              (utils.Pos('V', obj.Text) >= 0) or
+              (utils.Pos('X', obj.Text) >= 0))
+          {
+            obj.Delete();
+          }
+        }
+      }
+
+      Sibelius.ActiveScore.Selection.Clear();
+      Parent[0].Select();
+
+      BarObj     = -1;
+      NoteNumber = -1;
+      Continue   = true;
+
+      while (Continue)
+      {
+        nextNote(false);
+
+        Bar      = barObject();
+        NoteObj  = noteObject(Bar);
+        Continue = not NoteObj.Selected;
+      }
+
+      noteUpdate(0, false);
+    }
+  }"
+  barObject "() {
+    Score   = Sibelius.ActiveScore;
+    Staff   = Score.NthStaff(StaffNumber);
+    Bar     = null;
+
+    if (BarNumber <= Staff.BarCount)
+    {
+      Bar = Staff.NthBar(BarNumber);
+    }
+
+    return (Bar);
+  }"
+  noteObject "(Bar) {
+    NoteObj = null;
+
+    if (not (Bar=null))
+    {
+      BarObjCount = Bar.BarObjectCount;
+
+      if (BarObj < BarObjCount)
+      {
+        obj = Bar.NthBarObject(BarObj);
+
+        if ((obj.Type='NoteRest') and (NoteNumber < obj.NoteCount))
+        {
+          NoteObj = obj[NoteNumber];
+        }
+      }
+    }
+
+    return (NoteObj);
+  }"
+  stringObject "(Position) {
+    Score     = Sibelius.ActiveScore;
+    Selection = Score.Selection;
+
+    for each SymbolItem obj in Selection
+    {
+      if ((obj.Position = Position) and (obj.Index >= 192) and (obj.Index <= 201))
+      {
+        return (obj);
+      }
+    }
+
+    return (null);
+  }"
+  lhFingerObject "(Position) {
+    Score     = Sibelius.ActiveScore;
+    Selection = Score.Selection;
+
+    for each Text obj in Selection
+    {
+      if (obj.Position = Position)
+      {
+        if ((obj.Text = '0') or
+            (obj.Text = '1') or
+            (obj.Text = '2') or
+            (obj.Text = '3') or
+            (obj.Text = '4'))
+        {
+          return (obj);
+        }
+      }
+    }
+
+    return (null);
+  }"
+  rhFingerObject "(Position) {
+    Score     = Sibelius.ActiveScore;
+    Selection = Score.Selection;
+
+    for each Text obj in Selection
+    {
+      if (obj.Position = Position)
+      {
+        if ((obj.Text = 'p') or
+            (obj.Text = 'i') or
+            (obj.Text = 'm') or
+            (obj.Text = 'a'))
+        {
+          return (obj);
+        }
+      }
+    }
+
+    return (null);
+  }"
+  bareObject "(Position) {
+    Score     = Sibelius.ActiveScore;
+    Selection = Score.Selection;
+
+    for each Text obj in Selection
+    {
+      if (obj.Position = Position)
+      {
+        if ((utils.Pos('I', obj.Text) >= 0) or
+            (utils.Pos('V', obj.Text) >= 0) or
+            (utils.Pos('X', obj.Text) >= 0))
+        {
+          return (obj);
+        }
+      }
+    }
+
+    return (null);
+  }"
+  trimUpdate "(trimWhich, dir, big) {
+    StaffHeight   = 128;
+    DiatoneHeight = StaffHeight / 8;
+
+    switch(dir)
+    {
+      case 'U'
+      {
+        dx = 0;
+        dy = DiatoneHeight;
+      }
+
+      case 'D'
+      {
+        dx = 0;
+        dy = -DiatoneHeight;
+      }
+
+      case 'L'
+      {
+        dx = -8;
+        dy = 0;
+      }
+
+      case 'R'
+      {
+        dx = 8;
+        dy = 0;
+      }
+
+      default
+      {
+        dx = 0;
+        dy = 0;
+      }
+    }
+
+    if (big)
+    {
+      dx = dx * 4;
+      dy = dy * 4;
+    }
+
+    switch(trimWhich)
+    {
+      case 'String'
+      {
+        StringDx = StringDx + dx;
+        StringDy = StringDy + dy;
+      }
+
+      case 'LH finger'
+      {
+        LHFingerDx = LHFingerDx + dx;
+        LHFingerDy = LHFingerDy + dy;
+      }
+
+      case 'RH finger'
+      {
+        RHFingerDx = RHFingerDx + dx;
+        RHFingerDy = RHFingerDy + dy;
+      }
+
+      case 'Bare'
+      {
+        BareDx = BareDx + dx;
+        BareDy = BareDy + dy;
+      }
+
+      default
+      {
+        ;
+      }
+    }
+
+    noteUpdate(trimWhich, false);
+  }"
+  noteUpdate "(type, add) {
+    Bar     = barObject();
+    NoteObj = noteObject(Bar);
+
+    if (not (NoteObj=null))
+    {
+      Changed       = true;
+      StaffHeight   = 128;
+      DiatoneHeight = StaffHeight / 8;
+      NoteDy        = (NoteObj.DiatonicPitch - CentralPitch - 1) * DiatoneHeight;
+      TopStaffA_Dy  = DiatoneHeight * 6;
+      TopStaffB_Dy  = DiatoneHeight * 12;
+      create        = add;
+
+      switch (type)
+      {
+        case 'String'
+        {
+          Obj = stringObject(NoteObj.Position);
+
+          if (not(Obj = null))
+          {
+            create = true;
+
+            Obj.Delete();
+
+            Obj = null;
+          }
+
+          if (create)
+          {
+            Obj = Bar.AddSymbol(NoteObj.Position, 192 + StringNumber);
+          }
+
+          if (not(Obj = null))
+          {
+            Obj.Dx = StringDx - 24;
+            Obj.Dy = StringDy + NoteDy + (3 * DiatoneHeight);
+
+            Obj.Select();
+          }
+        }
+
+        case 'LH finger'
+        {
+          Obj = lhFingerObject(NoteObj.Position);
+
+          if (not(Obj = null))
+          {
+            Obj.Text = LH_FingerNumber;
+          }
+          else
+          {
+            if (create)
+            {
+              Obj = Bar.AddText(NoteObj.Position, LH_FingerNumber, 'Fingering');
+            }
+          }
+
+          if (not(Obj = null))
+          {
+            Obj.Dx = LHFingerDx - 24;
+            Obj.Dy = LHFingerDy + NoteDy;
+
+            Obj.Select();
+          }
+        }
+
+        case 'RH finger'
+        {
+          Obj = rhFingerObject(NoteObj.Position);
+
+          if (not(Obj = null))
+          {
+            Obj.Text = RH_FingerLetter;
+          }
+          else
+          {
+            if (create)
+            {
+              Obj = Bar.AddText(NoteObj.Position, RH_FingerLetter, 'Fingering');
+            }
+          }
+
+          if (not(Obj = null))
+          {
+            Obj.Dx = RHFingerDx + 24;
+            Obj.Dy = RHFingerDy + TopStaffA_Dy;
+
+            Obj.Select();
+          }
+        }
+
+        case 'Bare'
+        {
+          Obj = bareObject(NoteObj.Position);
+
+          if (not(Obj = null))
+          {
+            Obj.Text = BareSize & BareText;
+          }
+          else
+          {
+            if (create)
+            {
+              Obj = Bar.AddText(NoteObj.Position, BareSize & BareText, 'Technique');
+            }
+          }
+
+          if (not(Obj = null))
+          {
+            Obj.Dx = BareDx;
+            Obj.Dy = BareDy + TopStaffB_Dy;
+
+            Obj.Select();
+          }
+        }
+
+        default
+        {
+          Changed = false;
+        }
+      }
+
+      NoteObj.Select();
+      Sibelius.ActiveScore.Redraw = 1;
+
+      Continue = true;
+
+      if (Changed)
+      {
+        // After adding an object we need to re-find the selection
+        BarObj     = -1;
+        NoteNumber = -1;
+
+        while (Continue)
+        {
+          nextNote(false);
+
+          Bar      = barObject();
+          NoteObj  = noteObject(Bar);
+          Continue = not NoteObj.Selected;
+        }
+      }
+
+      Sibelius.RefreshDialog();
+    }
+  }"
+  nextBar "() {
+    Score = Sibelius.ActiveScore;
+    Staff = Score.NthStaff(StaffNumber);
+    Done  = true;
+
+    if (BarNumber < Staff.BarCount)
+    {
+      BarNumber = BarNumber + 1;
+    }
+    else
+    {
+      BarNumber = 1;
+      Done      = false;
+    }
+
+    return (Done);
+  }"
+  nextBarObj "(recursion) {
+    Score       = Sibelius.ActiveScore;
+    Staff       = Score.NthStaff(StaffNumber);
+    Transposed  = Score.TransposingScore;
+    Bar         = Staff.NthBar(BarNumber);
+    BarObjCount = Bar.BarObjectCount;
+    Done        = true;
+    NextObj     = true;
+    recursion   = recursion + 1;
+
+    while (NextObj)
+    {
+      if (BarObj < (BarObjCount - 1))
+      {
+        BarObj  = BarObj + 1;
+        obj     = Bar.NthBarObject(BarObj);
+
+        if (obj.Type='NoteRest')
+        {
+          NextObj = false;
+        }
+        else
+        {
+          NextObj = true;
+        }
+
+        if (obj.Type='InstrumentChange')
+        {
+          Instrument   = obj.StyleId;
+          CentralPitch = Clef3rdLine(Clef, Instrument, Transposed);
+        }
+
+        if (obj.Type='Clef')
+        {
+          Clef         = obj.ClefStyle;
+          CentralPitch = Clef3rdLine(Clef, Instrument, Transposed);
+        }
+      }
+      else
+      {
+        // set BarObj to -1 because it will be incremented to 0 in
+        // the call to nextBar() or the next loop
+        BarObj = -1;
+
+        if (nextBar())
+        {
+          NextObj = true;
+        }
+        else
+        {
+          Done   = false;
+
+          if (recursion < 2)
+          {
+            Done = nextBarObj(recursion);
+          }
+
+          NextObj = false;
+        }
+      }
+    }
+
+    return (Done);
+  }"
+  nextNote "(ClearSelection) {
+    Score         = Sibelius.ActiveScore;
+    Transposed    = Score.TransposingScore;
+    Staff         = Score.NthStaff(StaffNumber);
+    BarObjCount   = 0;
+    NoteCount     = 0;
+    NextNote      = true;
+
+    if (ClearSelection)
+    {
+      Score.Selection.Clear();
+    }
+
+    while (NextNote)
+    {
+      if (BarNumber <= Staff.BarCount)
+      {
+        Bar         = Staff.NthBar(BarNumber);
+        BarObjCount = Bar.BarObjectCount;
+
+        if (BarObj < BarObjCount)
+        {
+          obj = Bar.NthBarObject(BarObj);
+
+          if (obj.Type='NoteRest')
+          {
+            NoteCount = obj.NoteCount;
+
+            // Advance to next note
+            if (NoteNumber < (obj.NoteCount - 1))
+            {
+              NoteNumber = NoteNumber + 1;
+              NextNote   = false;
+            }
+            else
+            {
+              NoteNumber = -1;
+              Done       = false;
+
+              NextNote = nextBarObj(0);
+            }
+          }
+          else
+          {
+            NextNote = nextBarObj(0);
+          }
+        }
+        else
+        {
+          NextNote = nextBarObj(0);
+        }
+      }
+      else
+      {
+        NextNote = nextBarObj(0);
+      }
+    }
+  }"
+  Run "() {
+    // ----------------------------------------------------------------------
+    // Guitar Fingering Plugin
+    // ----------------------------------------------------------------------
+    // Written by Paavo Jumppanen
+    //
+    // Copyright(C) 2021, Paavo Jumppanen.
+    // ----------------------------------------------------------------------
+    // This program is free software: you can redistribute it and/or modify
+    // it under the terms of the GNU General Public License as published by
+    // the Free Software Foundation, either version 3 of the License, or
+    // (at your option) any later version.
+    //
+    // This program is distributed in the hope that it will be useful,
+    // but WITHOUT ANY WARRANTY; without even the implied warranty of
+    // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    // GNU General Public License for more details.
+    //
+    // You should have received a copy of the GNU General Public License
+    // along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    // ----------------------------------------------------------------------
+    StringObj       = null;
+    LHFingerObj     = null;
+    RHFingerObj     = null;
+    BareObj         = null;
+    score           = Sibelius.ActiveScore;
+    StaffNumber     = selectedStaff();
+    StaffHeight     = score.StaffHeight;
+
+    if (StaffNumber <= 0)
+    {
+      return(0);
+    }
+
+    BarNumber       = 1;
+    BarObj         = -1;
+    NoteNumber      = -1;
+    PositionNumber  = '';
+    FingerNumber    = '';
+    StringNumber    = '';
+    score.Redraw    = 1;
+    Staff           = score.NthStaff(StaffNumber);
+    Instrument      = Staff.InitialStyleId;
+    Clef            = Staff.InitialClefStyle;
+    Transposed      = score.TransposingScore;
+    CentralPitch    = Clef3rdLine(Clef, Instrument, Transposed);
+
+    // Need to search through all notes from the start to ensure we pick
+    // up instrument or clef changes that occur between the start and
+    // the start of the selection.
+    Continue = true;
+
+    while (Continue)
+    {
+      nextNote(false);
+
+      Bar      = barObject();
+      NoteObj  = noteObject(Bar);
+      Continue = not NoteObj.Selected;
+    }
+
+    noteUpdate(0, false);
+    Sibelius.ShowDialog(FingeringDialog, Self);
+  }"
+  Clef3rdLine "(clef,instrument,transpose) {
+    // this method calculates from a given clef and instrument
+    // the height if a diatonic note, written on the middle line.
+    // Mind: a Contrabass has the same cleff as a cello, is written an octave lower
+    // so -7 should be substracted to have the real height.
+    // Furthermore if a score is transposed (Score.TransposingScore=True)
+    // we should also take into account transposing
+    // so e.g. clarinet in A should be added 3
+    //
+    // receives: clef, instrument style, transpose flag (string like 'Treble (down 8)')
+    // returns: value (with that note.DiatonicPitch-value is always 0 for middle line)
+    trans = 0;
+
+    if (transpose)
+    {
+      if ((instrument='instrument.wind.clarinet.bflat')      or
+          (instrument='instrument.wind.clarinet.bass.bflat') or
+          (instrument='instrument.wind.saxophone.soprano')   or
+          (instrument='instrument.brass.trumpet.bflat')      or
+          (instrument='instrument.brass.cornet.bflat'))
+      {
+       trans = -1;
+      }
+
+      if (instrument='instrument.wind.clarinet.a')
+      {
+       trans = -2;
+      }
+
+      if ((instrument='instrument.wind.coranglais')  or
+          (instrument='instrument.wind.englishhorn') or
+          (instrument='instrument.brass.horn.f')     or
+          (instrument='instrument.brass.horn.f.nokeysig'))
+      {
+       trans = -4;
+      }
+
+      if ((instrument='instrument.wind.saxophone.alto')     or
+          (instrument='instrument.wind.saxophone.baritone') or
+          (instrument='instrument.brass.trumpet.d'))
+      {
+       trans = -5;
+      }
+
+      if ((instrument='instrument.brass.horn.d') or
+          (instrument='instrument.brass.horn.d.nokeysig'))
+      {
+       trans = -6;
+      }
+
+      if ((instrument='instrument.wind.saxophone.tenor'))
+      {
+       trans = -8;
+      }
+    }
+
+    oct = 0;
+
+    if ((instrument='instrument.strings.contrabass')                   or
+        (instrument='instrument.singers.tenor')                        or
+        (instrument='instrument.wind.clarinet.bass.bflat')             or
+        (instrument='instrument.wind.saxophone.baritone')              or
+        (instrument='instrument.fretted.guitar.resonator.5lines')      or
+        (instrument='instrument.fretted.guitar.12string.5lines')       or
+        (instrument='instrument.fretted.guitar.acoustic.5lines')       or
+        (instrument='instrument.fretted.guitar.classical.5lines')      or
+        (instrument='instrument.fretted.guitar.electric.5lines')       or
+        (instrument='instrument.fretted.guitar.semi-acoustic.5lines')  or
+        (instrument='instrument.fretted.guitar.steel.hawaiian.5lines') or
+        (instrument='instrument.fretted.guitar.steel.pedal.5lines')    or
+        (instrument='instrument.wind.piccolo')                         or
+        (instrument='instrument.wind.recorder.descant')                or
+        (instrument='instrument.wind.bassoon.contrabassoon'))
+    {
+     oct = -7;
+    }
+
+    ref = 41;
+
+    if ((clef='Bass')        or
+        (clef='Bass down 8') or
+        (clef='Bass up 15')  or
+        (clef='Bass up 8'))
+    {
+     ref = 29;
+    }
+
+    if ((clef='Baritone C') or
+        (clef='Baritone F'))
+    {
+     ref = 31;
+    }
+
+    if (clef='Tenor down 8')
+    {
+     ref = 33;
+    }
+
+    if (clef='Alto')
+    {
+     ref = 35;
+    }
+
+    if (clef='Mezzo-soprano')
+    {
+     ref = 37;
+    }
+
+    if (clef='Soprano')
+    {
+     ref = 39;
+    }
+
+    if (clef='Null')
+    {
+     ref = 41;
+    }
+
+    if (clef='French violin')
+    {
+     ref = 43;
+    }
+
+    return (ref + oct + trans);
+  }"
+  selectedStaff "() {
+    score   = Sibelius.ActiveScore;
+    StaffNo = 0;
+
+    for each NoteRest obj in score.Selection
+    {
+      StaffNo = obj.ParentBar.ParentStaff.StaffNum;
+    }
+
+    return (StaffNo);
+  }"
+  FingeringDialog "Dialog"
+  {
+    Controls
+    {
+      Text
+      {
+        Title "LH Finger"
+        X "40"
+        Y "24"
+        Width "34"
+        Height "12"
+        RightAlign "1"
+        Value
+        Method
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "0"
+        X "76"
+        Y "21"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "lhFinger0Clicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "1"
+        X "98"
+        Y "21"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "lhFinger1Clicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "2"
+        X "120"
+        Y "21"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "lhFinger2Clicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "3"
+        X "142"
+        Y "21"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "lhFinger3Clicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "4"
+        X "164"
+        Y "21"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "lhFinger4Clicked"
+        SetFocus "0"
+      }
+      Text
+      {
+        Title "RH Finger"
+        X "40"
+        Y "43"
+        Width "34"
+        Height "12"
+        RightAlign "1"
+        Value
+        Method
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "p"
+        X "76"
+        Y "40"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "rhFingerPClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "i"
+        X "98"
+        Y "40"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "rhFingerIClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "m"
+        X "120"
+        Y "40"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "rhFingerMClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "a"
+        X "142"
+        Y "40"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "rhFingerAClicked"
+        SetFocus "0"
+      }
+      Text
+      {
+        Title "String"
+        X "40"
+        Y "5"
+        Width "34"
+        Height "12"
+        RightAlign "1"
+        Value
+        Method
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "1"
+        X "76"
+        Y "2"
+        Width "20"
+        Height "16"
+        DefaultButton "0"
+        Value
+        Method "string1Clicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "2"
+        X "98"
+        Y "2"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "string2Clicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "3"
+        X "120"
+        Y "2"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "string3Clicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "4"
+        X "142"
+        Y "2"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "string4Clicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "5"
+        X "164"
+        Y "2"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "string5Clicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "6"
+        X "186"
+        Y "2"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "string6Clicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "Next"
+        X "61"
+        Y "117"
+        Width "28"
+        Height "16"
+        DefaultButton "0"
+        Value
+        Method "nextClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "Clear"
+        X "97"
+        Y "117"
+        Width "28"
+        Height "16"
+        DefaultButton "0"
+        Value
+        Method "clearClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "Close"
+        X "133"
+        Y "117"
+        Width "28"
+        Height "16"
+        DefaultButton "0"
+        Value
+        Method
+        SetFocus "0"
+        EndDialog "1"
+      }
+      RadioButton
+      {
+        Title "1/3"
+        X "172"
+        Y "54"
+        Width "35"
+        Height "15"
+        StartGroup "1"
+        Value "BareSize1Set"
+        Method "bareSize1Cicked"
+        SetFocus "0"
+      }
+      RadioButton
+      {
+        Title "1/2"
+        X "172"
+        Y "69"
+        Width "35"
+        Height "15"
+        StartGroup "0"
+        Value "BareSize2Set"
+        Method "bareSize2Cicked"
+        SetFocus "0"
+      }
+      RadioButton
+      {
+        Title "2/3"
+        X "172"
+        Y "84"
+        Width "35"
+        Height "15"
+        StartGroup "0"
+        Value "BareSize3Set"
+        Method "bareSize3Cicked"
+        SetFocus "0"
+      }
+      RadioButton
+      {
+        Title "5/6"
+        X "172"
+        Y "99"
+        Width "35"
+        Height "15"
+        StartGroup "0"
+        Value "BareSize4Set"
+        Method "bareSize4Cicked"
+        SetFocus "0"
+      }
+      RadioButton
+      {
+        Title "Full"
+        X "172"
+        Y "114"
+        Width "35"
+        Height "15"
+        StartGroup "0"
+        Value "BareSize5Set"
+        Method "bareSize5Cicked"
+        SetFocus "0"
+      }
+      Text
+      {
+        Title "Bar"
+        X "40"
+        Y "63"
+        Width "34"
+        Height "12"
+        RightAlign "1"
+        Value
+        Method
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "I"
+        X "76"
+        Y "59"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "bareIClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "II"
+        X "98"
+        Y "59"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "bareIIClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "III"
+        X "120"
+        Y "59"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "bareIIIClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "IV"
+        X "142"
+        Y "59"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "bareIVClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "V"
+        X "76"
+        Y "78"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "bareVClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "VI"
+        X "98"
+        Y "78"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "bareVIClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "VII"
+        X "120"
+        Y "78"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "bareVIIClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "VIII"
+        X "142"
+        Y "78"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "bareVIIIClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "IX"
+        X "76"
+        Y "97"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "bareIXClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "X"
+        X "98"
+        Y "97"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "bareXClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "XI"
+        X "120"
+        Y "97"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "bareXIClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title "XII"
+        X "142"
+        Y "97"
+        Width "20"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "bareXIIClicked"
+        SetFocus "0"
+      }
+      RadioButton
+      {
+        Title
+        X "8"
+        Y "2"
+        Width "15"
+        Height "15"
+        StartGroup "1"
+        Value "TrimString"
+        Method "trimStringClicked"
+        SetFocus "0"
+      }
+      RadioButton
+      {
+        Title
+        X "8"
+        Y "21"
+        Width "15"
+        Height "15"
+        StartGroup "0"
+        Value "TrimLHFinger"
+        Method "trimLHFingerClicked"
+        SetFocus "0"
+      }
+      RadioButton
+      {
+        Title
+        X "8"
+        Y "40"
+        Width "15"
+        Height "15"
+        StartGroup "0"
+        Value "TrimRHFinger"
+        Method "trimRHFingerClicked"
+        SetFocus "0"
+      }
+      RadioButton
+      {
+        Title
+        X "8"
+        Y "59"
+        Width "15"
+        Height "15"
+        StartGroup "0"
+        Value "TrimBare"
+        Method "trimBareClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title
+        X "22"
+        Y "82"
+        Width "15"
+        Height "7"
+        DefaultButton "0"
+        Value
+        Method "trimUpBClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title
+        X "22"
+        Y "90"
+        Width "15"
+        Height "8"
+        DefaultButton "0"
+        Value
+        Method "trimUpClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title
+        X "22"
+        Y "112"
+        Width "15"
+        Height "8"
+        DefaultButton "0"
+        Value
+        Method "trimDownClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title
+        X "22"
+        Y "120"
+        Width "15"
+        Height "7"
+        DefaultButton "0"
+        Value
+        Method "trimDownBClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title
+        X "6"
+        Y "97"
+        Width "7"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "trimLeftBClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title
+        X "13"
+        Y "97"
+        Width "8"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "trimLeftClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title
+        X "38"
+        Y "97"
+        Width "8"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "trimRightClicked"
+        SetFocus "0"
+      }
+      Button
+      {
+        Title
+        X "46"
+        Y "97"
+        Width "7"
+        Height "15"
+        DefaultButton "0"
+        Value
+        Method "trimRightBClicked"
+        SetFocus "0"
+      }
+    }
+    Title "Guitar Fingering"
+    X "346"
+    Y "146"
+    Width "218"
+    Height "156"
+  }
+  BarNumber "1"
+  PositionNumber
+  NoteNumber "0"
+  StaffNumber "0"
+  LH_FingerNumber "0"
+  RH_FingerLetter
+  StringNumber "6"
+  BareText
+  BareSize
+  BareSize1Set "false"
+  BareSize2Set "false"
+  BareSize3Set "false"
+  BareSize4Set "false"
+  BareSize5Set "true"
+  TrimString "true"
+  TrimLHFinger "false"
+  TrimRHFinger "false"
+  TrimBare "false"
+  Instrument "instrument.fretted.guitar.acoustic.5lines"
+  Clef "Treble"
+  CentralPitch "34"
+  BarObj "4"
+  TrimDirection
+  TrimWhich "String"
+  StringDx "0"
+  StringDy "0"
+  LHFingerDx "0"
+  LHFingerDy "0"
+  RHFingerDx "0"
+  RHFingerDy "0"
+  BareDx "0"
+  BareDy "0"
+  StaffHeight "6"
+  _PlugInName "Guitar Fingering"
+}
