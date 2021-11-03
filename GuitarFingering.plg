@@ -704,14 +704,15 @@
     Score       = Sibelius.ActiveScore;
     Staff       = Score.NthStaff(StaffNumber);
     Transposed  = Score.TransposingScore;
-    Bar         = Staff.NthBar(BarNumber);
-    BarObjCount = Bar.BarObjectCount;
     Done        = true;
     NextObj     = true;
     recursion   = recursion + 1;
 
     while (NextObj)
     {
+      Bar         = Staff.NthBar(BarNumber);
+      BarObjCount = Bar.BarObjectCount;
+
       if (BarObj < (BarObjCount - 1))
       {
         BarObj  = BarObj + 1;
@@ -719,7 +720,8 @@
 
         if (obj.Type='NoteRest')
         {
-          NextObj = false;
+          NextObj    = false;
+          NoteNumber = -1;
         }
         else
         {
@@ -742,7 +744,8 @@
       {
         // set BarObj to -1 because it will be incremented to 0 in
         // the call to nextBar() or the next loop
-        BarObj = -1;
+        BarObj     = -1;
+        NoteNumber = -1;
 
         if (nextBar())
         {
